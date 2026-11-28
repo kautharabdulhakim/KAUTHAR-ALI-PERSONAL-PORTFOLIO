@@ -4,58 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kauthar Ali | Multi-skilled Digital Professional</title>
+    <meta name="description" content="Portfolio of Kauthar Ali, a multi-skilled digital professional working across web development, graphic design, AI and digital marketing.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
 
-    <header>
-        <h2>Kauthar Ali.</h2>
+    <header class="site-header">
+        <a href="#home" class="logo">Kauthar Ali<span>.</span></a>
         <nav>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact" class="nav-cta">Contact</a>
         </nav>
     </header>
 
-    <section id="home" class="hero">
-        <h1>Hello, I'm Kauthar Ali</h1>
-        <h2>Multi-skilled Digital Professional</h2>
-        <p>I create digital experiences through web development,
-        graphic design, artificial intelligence and digital marketing.</p>
-        <a href="#projects" class="btn">Explore My Work</a>
-    </section>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="eyebrow reveal">Portfolio &mdash; 2026</p>
+                <h1 class="reveal">Hello, I'm <em>Kauthar Ali</em></h1>
+                <h2 class="reveal">Multi-skilled Digital Professional</h2>
+                <p class="lede reveal">I create digital experiences through web development,
+                graphic design, artificial intelligence and digital marketing.</p>
+                <div class="hero-actions reveal">
+                    <a href="#projects" class="btn">Explore My Work <span aria-hidden="true">&rarr;</span></a>
+                    <a href="#contact" class="btn btn-ghost">Get in touch</a>
+                </div>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+                <div class="orb"></div>
+                <div class="monogram">KA</div>
+                <ul class="orbit-tags">
+                    <li>Web</li>
+                    <li>Design</li>
+                    <li>AI</li>
+                    <li>Marketing</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate Multi-skilled Digital Professional with a keen interest in technology, creativity, and digital innovation.
-            I have skills in web development, graphic design, digital marketing, and customer support, with knowledge of HTML, CSS, and JavaScript. 
-            I also enjoy exploring Artificial Intelligence tools, creating business profiles, and developing creative digital solutions.
-            I am a motivated, creative, and lifelong learner who enjoys turning ideas into reality. My goal is to continuously grow my technical skills,
-            embrace new opportunities, and use technology to create meaningful digital experiences that help individuals and businesses succeed</p>
-    </section>
+        <section id="about" class="split">
+            <div class="section-label">
+                <span class="num">01</span>
+                <h2>About Me</h2>
+            </div>
+            <div class="section-body reveal">
+                <p class="big">I am a passionate Multi-skilled Digital Professional with a keen interest in technology, creativity, and digital innovation.</p>
+                <p>I have skills in web development, graphic design, digital marketing, and customer support, with knowledge of HTML, CSS, and JavaScript.
+                    I also enjoy exploring Artificial Intelligence tools, creating business profiles, and developing creative digital solutions.</p>
+                <p>I am a motivated, creative, and lifelong learner who enjoys turning ideas into reality. My goal is to continuously grow my technical skills,
+                    embrace new opportunities, and use technology to create meaningful digital experiences that help individuals and businesses succeed.</p>
+            </div>
+        </section>
 
-    <section id="skills">
-        <h2>My Skills</h2>
-        <p>HTML | CSS | JavaScript | Python | Flutter | Canva |
-        Graphic Design | Digital Marketing | AI</p>
-    </section>
+        <section id="skills" class="split tinted">
+            <div class="section-label">
+                <span class="num">02</span>
+                <h2>My Skills</h2>
+            </div>
+            <ul class="skills reveal">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Flutter</li>
+                <li>Canva</li>
+                <li>Graphic Design</li>
+                <li>Digital Marketing</li>
+                <li>AI</li>
+            </ul>
+        </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <p>Welcome to my digital project collection. More projects coming soon!</p>
-    </section>
+        <section id="projects" class="split">
+            <div class="section-label">
+                <span class="num">03</span>
+                <h2>My Projects</h2>
+            </div>
+            <div class="section-body reveal">
+                <p>Welcome to my digital project collection. More projects coming soon!</p>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <span class="tag">Web Development</span>
+                        <h3>Coming soon</h3>
+                    </article>
+                    <article class="project-card">
+                        <span class="tag">Graphic Design</span>
+                        <h3>Coming soon</h3>
+                    </article>
+                    <article class="project-card">
+                        <span class="tag">AI &amp; Marketing</span>
+                        <h3>Coming soon</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: kautharally009@gmail.com</p>
-        <p>LinkedIn: linkedin.com/in/kauthar-ali-05639b384</p>
-    </section>
+        <section id="contact" class="contact">
+            <p class="eyebrow">04 &mdash; Contact Me</p>
+            <h2 class="reveal">Let's create something <em>meaningful</em> together.</h2>
+            <div class="contact-links reveal">
+                <a href="mailto:kautharally009@gmail.com">
+                    <span>Email</span>
+                    kautharally009@gmail.com
+                </a>
+                <a href="https://linkedin.com/in/kauthar-ali-05639b384" target="_blank" rel="noopener">
+                    <span>LinkedIn</span>
+                    linkedin.com/in/kauthar-ali-05639b384
+                </a>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>© 2026 Kauthar Ali. All rights reserved.</p>
     </footer>
- <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
